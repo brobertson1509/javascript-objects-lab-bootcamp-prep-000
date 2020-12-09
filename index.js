@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(obj, prop2, value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue (obj, prop2, value){
-  obj.prop2 = 1
+  obj.prop2 = 2
   return obj;
 }
 
