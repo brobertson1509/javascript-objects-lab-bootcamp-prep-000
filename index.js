@@ -3,10 +3,10 @@ var obj = {prop: 1
 
 function updateObjectWithKeyAndValue(obj, prop2, value){
   return Object.assign ({}, obj, { prop2: 2 });
-var obj = {prop: "Old Value"}
-  obj.prop = "New Value"
-  return obj
 
+var obj = { prop: 'old value' }
+var newObj = updateObjectWithKeyAndValue(obj, 'prop', 'new value')
+retrun newObj
 }
 
 function destructivelyUpdateObjectWithKeyAndValue (obj, prop2, value){
