@@ -12,7 +12,7 @@ function destructivelyUpdateObjectWithKeyAndValue (obj, prop2, value){
 }
 
 function deleteFromObjectByKey(obj, prop){
-  
+
 }
 function destructivelyDeleteFromObjectByKey(obj, prop){
   
