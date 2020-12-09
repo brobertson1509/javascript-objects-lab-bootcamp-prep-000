@@ -15,7 +15,8 @@ function destructivelyUpdateObjectWithKeyAndValue (obj, prop2, value){
 }
 
 function deleteFromObjectByKey(obj, prop){
-
+  var obj = { prop: 1 };
+  var newObj = deleteFromObjectByKey(obj, 'prop')
 }
 
 function destructivelyDeleteFromObjectByKey(obj, prop){
