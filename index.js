@@ -1,5 +1,4 @@
-var recipe = {eggs: 3,
-flour: '3 cups'
+var obj = {prop: 1
 }
 
 function updateObjectWithKeyAndValue(recipe, ingredient, quantity){
